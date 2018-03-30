@@ -65,10 +65,8 @@
                     </archive>
                 </configuration>
             </plugin>
-        </plugins>
 
-    <plugins>
-        <plugin>
+       <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-jar-plugin</artifactId>
             <configuration>
@@ -79,8 +77,8 @@
                 </archive>
             </configuration>
         </plugin>
-    </plugins>
 
+        </plugins>
     </build>
 <distributionManagement>
     <snapshotRepository>
