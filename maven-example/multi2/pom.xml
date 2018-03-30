@@ -15,5 +15,12 @@
     <version>3.7-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Multi 2</name>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>1a06ceec925f-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
